@@ -9,7 +9,7 @@ def findFirstOcc(arr,k):
     endIdx=n-1
     firstIdx=-1
 
-    while startIdx<endIdx:
+    while startIdx<=endIdx:
         mid=startIdx+(endIdx-startIdx)//2
         if arr[mid]==k:
             firstIdx=mid
@@ -23,12 +23,11 @@ def findFirstOcc(arr,k):
 
 
 # Taking user input
-user_input = input("Enter sorted elements  ")
-arr = list(map(int, user_input.split()))  # Convert input to list of integers
+A=list(map(int,input("Enter the ele: ").split()))
 
 target = int(input("Enter the target element: "))
 
-result=findFirstOcc(arr,target)
+result=findFirstOcc(A,target)
 
 if result!=-1:
     print(f"first element found at index : {result}")
