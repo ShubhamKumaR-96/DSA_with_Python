@@ -7,7 +7,7 @@ def bineaySearch(arr,k):
     n=len(arr)
     startIdx=0
     endIdx=n-1
-    while startIdx<endIdx:
+    while startIdx<=endIdx:
         mid=startIdx+(endIdx-startIdx)//2
         if arr[mid]==k:
             return mid;
