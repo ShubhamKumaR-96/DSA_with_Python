@@ -1,6 +1,7 @@
 # Find the unique element
 # Question
-# Every element occurs twice except for 1, find the unique element. Note: Duplicate elements are adjacent to each other but the array is not sorted.
+# Every element occurs twice except for 1, find the unique element. Note: 
+# Duplicate elements are adjacent to each other but the array is not sorted.
 # 7	7	6	6	3	8	8	1	1	9	9
 
 def findUnique(arr):
